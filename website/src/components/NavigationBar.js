@@ -1,16 +1,15 @@
 //React
 import React from "react";
 
-//Flowbite react
-import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from 'flowbite-react';
-
 ///////////////////////////////////
 export default function NavigationBar() {
     return(
-        <div>
-            <ul>
+        <div className=" bg-white">
+            <ul className=" text-pink">
                 <li>Home</li>
                 <li>About</li>
+                <li>Work</li>
+                <li>Blog</li>
             </ul>
         </div>
     );
