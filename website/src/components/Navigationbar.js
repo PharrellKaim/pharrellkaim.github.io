@@ -14,11 +14,11 @@ export default function Navigationbar() {
 
                 {/* Icons in der Mitte */}
                 <div className="flex space-x-4">
-                    <a href="https://de.linkedin.com/in/pharrell-kaim-091a6a22a" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className="w-6 h-6 text-text hover:text-gray-300" />
+                    <a href="https://www.linkedin.com/in/pharrell-kaim-091a6a22a" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className="w-6 h-6 text-text hover:text-primary" />
                     </a>
                     <a href="https://github.com/PharrellKaim" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="w-6 h-6 text-text hover:text-gray-300" />
+                        <FaGithub className="w-6 h-6 text-text hover:text-primary" />
                     </a>
                 </div>
 

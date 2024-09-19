@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="bg-background py-4">
             <div className="flex justify-center items-center space-x-6">
                 <a
-                    href="https://www.linkedin.com/in/your-profile"
+                    href="https://www.linkedin.com/in/pharrell-kaim-091a6a22a"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-darkgrey hover:text-primary"
@@ -14,7 +14,7 @@ export default function Footer() {
                     <FaLinkedin className="w-8 h-8" />
                 </a>
                 <a
-                    href="https://github.com/your-profile"
+                    href="https://github.com/PharrellKaim"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-darkgrey hover:text-primary"
