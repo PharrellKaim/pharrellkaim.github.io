@@ -1,14 +1,58 @@
-import React from "react";
+import React, { useState } from 'react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'; // Heroicons v2
+import { FaLinkedin, FaGithub } from 'react-icons/fa'; // react-icons für LinkedIn und GitHub
 
 export default function Navigationbar() {
-    return(
-        <div className="flex p-3">
-            <h1 className="text-text font-mono text-2xl w-1/2">Pharrell Kaim</h1>
-            <ul className=" flex space-x-4 text-background font-sans text-xl ">
-                <li><a href="#about" className="bg-secondary rounded-2xl px-3 py-1">About</a></li>
-                <li><a href="#experience" className="bg-primary rounded-2xl px-3 py-1 ">Experience</a></li>
-                <li><a href="#projects" className="bg-accent rounded-2xl px-3 py-1 ">Projects</a></li>
-            </ul>
-        </div>
-    )
+    const [isOpen, setIsOpen] = useState(false);
+
+    return (
+        <nav className="bg-background p-5">
+            {/* Container für die Navigation */}
+            <div className="flex items-center justify-between">
+                {/* Name auf der linken Seite */}
+                <h1 className="text-text font-mono text-2xl">Pharrell Kaim</h1>
+
+                {/* Icons in der Mitte */}
+                <div className="flex space-x-4">
+                    <a href="https://de.linkedin.com/in/pharrell-kaim-091a6a22a" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className="w-6 h-6 text-text hover:text-gray-300" />
+                    </a>
+                    <a href="https://github.com/PharrellKaim" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="w-6 h-6 text-text hover:text-gray-300" />
+                    </a>
+                </div>
+
+                {/* Burger-Button auf der rechten Seite */}
+                <div className="relative z-50">
+                    <button onClick={() => setIsOpen(!isOpen)}>
+                        {/* Bedingter Wechsel zwischen Bars3Icon und XMarkIcon */}
+                        {isOpen ? (
+                            <XMarkIcon className="w-6 h-6 text-text" />
+                        ) : (
+                            <Bars3Icon className="w-6 h-6 text-text" />
+                        )}
+                    </button>
+                </div>
+            </div>
+
+            {/* Slider-Menü von rechts */}
+            <div
+                className={`fixed top-0 right-0 h-full w-64 bg-background transform ${
+                    isOpen ? "translate-x-0" : "translate-x-full"
+                } transition-transform duration-300 ease-in-out z-40`}>
+                {/* Menü-Links */}
+                <ul className="flex flex-col space-y-6 mt-20 text-center text-text text-xl">
+                    <li>
+                        <a href="#about" onClick={() => setIsOpen(false)}>About</a>
+                    </li>
+                    <li>
+                        <a href="#experience" onClick={() => setIsOpen(false)}>Experience</a>
+                    </li>
+                    <li>
+                        <a href="#projects" onClick={() => setIsOpen(false)}>Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    );
 }
