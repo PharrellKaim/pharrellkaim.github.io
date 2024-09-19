@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.8477c310.css",
-    "main.js": "/website/static/js/main.a9850e0a.js",
-    "static/js/453.bb828c5d.chunk.js": "/website/static/js/453.bb828c5d.chunk.js",
-    "index.html": "/website/index.html",
-    "main.8477c310.css.map": "/website/static/css/main.8477c310.css.map",
-    "main.a9850e0a.js.map": "/website/static/js/main.a9850e0a.js.map",
-    "453.bb828c5d.chunk.js.map": "/website/static/js/453.bb828c5d.chunk.js.map"
+    "main.css": "/pharrellkaim.github.io/static/css/main.8477c310.css",
+    "main.js": "/pharrellkaim.github.io/static/js/main.87472f83.js",
+    "static/js/453.bb828c5d.chunk.js": "/pharrellkaim.github.io/static/js/453.bb828c5d.chunk.js",
+    "index.html": "/pharrellkaim.github.io/index.html",
+    "main.8477c310.css.map": "/pharrellkaim.github.io/static/css/main.8477c310.css.map",
+    "main.87472f83.js.map": "/pharrellkaim.github.io/static/js/main.87472f83.js.map",
+    "453.bb828c5d.chunk.js.map": "/pharrellkaim.github.io/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8477c310.css",
-    "static/js/main.a9850e0a.js"
+    "static/js/main.87472f83.js"
   ]
 }
