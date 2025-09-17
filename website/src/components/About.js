@@ -3,19 +3,19 @@ import React from "react";
 export default function About() {
     return (
         <div className="flex flex-col items-center justify-center py-6 px-4">
-            {/* System.out.println() Zeile oben */}
+            {/* System.out.println() line */}
             <h1 id="about" className="text-3xl md:text-4xl font-bold mb-4 text-center">
                 <code className="text-text text-xl md:text-2xl">
                     System.out.println(<span className="text-primary">"Pharrell Kaim"</span>);
                 </code>
             </h1>
             <a className="text-lg md:text-xl text-buttons mb-4 block text-center">
-                <span className="text-secondary">Software-Quality-Analyst</span>
+                <span className="text-secondary">System Engineer</span>
             </a>
 
-            {/* Hauptinhalt: Text und Bild übereinander auf mobilen Geräten */}
+            {/* Main */}
             <div className="flex flex-col md:flex-row items-center justify-between w-full md:w-3/4">
-                {/* Textbereich */}
+                {/* Text */}
                 <div className="md:w-1/2 text-center md:text-left md:pr-6 mb-6 md:mb-0">
                     <div className="text-justify font-thin text-sm md:text-base leading-relaxed">
                         <p className="mb-4">
@@ -30,10 +30,10 @@ export default function About() {
                     </div>
                 </div>
 
-                {/* Bildbereich */}
+                {/* Picture */}
                 <div className="md:w-1/2 flex justify-center md:justify-end">
                     <img
-                        src="/Profilbild.JPG"
+                        src="/Profilbild2.JPG"
                         alt="Pharrell Kaim"
                         className="rounded-lg shadow-lg max-w-[200px] md:max-w-sm"
                     />

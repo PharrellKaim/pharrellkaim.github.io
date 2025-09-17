@@ -6,12 +6,40 @@ export default function Experience() {
             <h1 id="experience" className="mx-auto text-white font-mono text-2xl md:text-3xl mb-5 bg-darkgrey inline-block px-6 py-3 rounded-2xl">
                 Experience
             </h1>
-            <div className="mx-auto w-full mx-10">
-                {/* Erste Erfahrung */}
+            {/* First Experience */}
                 <div className="mb-10">
                     <div className="flex flex-col md:flex-row items-start md:items-center mb-3">
                         <span className="text-primary text-lg md:text-2xl mr-4 mb-2 md:mb-0">
-                            2024-Present
+                            08/2025-Present
+                        </span>
+                        <span className="text-base md:text-2xl font-normal">
+                            System Engineer, System Vertrieb Alexander GmbH
+                        </span>
+                    </div>
+                    <p className="font-thin text-justify text-sm md:text-base mb-4">
+                    I have the opportunity to contribute to various customer projects, which has exposed me to a wide range of technologies. I have specialized in Kubernetes, working with platforms such as OpenShift, Rancher, and Kubermatic. In addition, I have gained valuable experience in the areas of automation with Terraform and CI/CD processes with GitLab, further strengthening my expertise in building scalable and automated infrastructure solutions.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                        <a className="bg-secondary rounded-xl px-3 py-1 text-white font-extralight text-xs">
+                            Kubernetes
+                        </a>
+                        <a className="bg-secondary rounded-xl px-3 py-1 text-white font-extralight text-xs">
+                            Automation
+                        </a>
+                        <a className="bg-secondary rounded-xl px-3 py-1 text-white font-extralight text-xs">
+                            Cloud
+                        </a>
+                        <a className="bg-secondary rounded-xl px-3 py-1 text-white font-extralight text-xs">
+                            Software Development
+                        </a>
+                    </div>
+                </div>
+            <div className="mx-auto w-full mx-10">
+                {/* Second Experience */}
+                <div className="mb-10">
+                    <div className="flex flex-col md:flex-row items-start md:items-center mb-3">
+                        <span className="text-primary text-lg md:text-2xl mr-4 mb-2 md:mb-0">
+                            07/2024-07/2025
                         </span>
                         <span className="text-base md:text-2xl font-normal">
                             Software Quality Tester, Garmin Würzburg GmbH
@@ -36,11 +64,11 @@ export default function Experience() {
                     </div>
                 </div>
 
-                {/* Zweite Erfahrung */}
+                {/* Third Experience */}
                 <div className="mb-10">
                     <div className="flex flex-col md:flex-row items-start md:items-center mb-3">
                         <span className="text-primary text-lg md:text-2xl mr-4 mb-2 md:mb-0">
-                            2021-2024
+                            09/2021-07/2024
                         </span>
                         <span className="text-base md:text-2xl font-normal">
                             Trainee IT Specialist Application Development, Garmin Würzburg GmbH
