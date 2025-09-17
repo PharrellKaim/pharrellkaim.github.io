@@ -14,7 +14,7 @@ export default function Projects() {
                         <img
                             src="/hcImage.png"
                             alt="HobbyConnect"
-                            className="rounded-lg shadow-md max-w-full h-auto"
+                            className="rounded-lg shadow-md  max-w-full h-auto"
                         />
                     </div>
                     <div className="md:w-1/2">
@@ -32,7 +32,33 @@ export default function Projects() {
                     </div>
                 </div>
 
-                {/* Project 2: TypeScript Todo */}
+            {/* Project 2: CronJob Monitor */}
+            <div className="mx-auto w-full mx-10">
+                <div className="flex flex-col md:flex-row mb-5 items-center md:items-start">
+                    <div className=" md:mr-6 mb-4 md:mb-0">
+                        <img
+                            src="/cronJobMonitorOverview.png"
+                            alt="CronJobMonitor"
+                            className="rounded-lg shadow-md w-80 h-56 max-w-full h-auto"
+                        />
+                    </div>
+                    <div className="md:w-1/2">
+                        <span className="text-primary text-lg md:text-2xl mr-5">
+                            CronJob Monitor
+                        </span>
+                        <p className="font-thin text-justify text-sm md:text-base mt-3 mb-4">
+                            I developed a lightweight Cron Job Dashboard using Angular and Angular Material as a personal project to deepen my understanding of Angular and TypeScript. This project served as a hands-on exercise to enhance my skills in building modern web applications, allowing me to explore Angular’s component-based architecture and Material’s design system. The dashboard provides a clear and user-friendly interface to monitor, trigger, and inspect background jobs running on a server. 
+                        </p>
+                        <div className="text-center md:text-left">
+                            <a href="https://github.com/PharrellKaim/cronJobMonitor" className="inline-block hover:bg-primary px-5 py-2 rounded-xl bg-darkgrey text-white">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+                {/* Project 3: TypeScript Todo */}
                 <div className="flex flex-col md:flex-row mb-5 items-center md:items-start">
                     <div className=" md:mr-6 mb-4 md:mb-0">
                         <img
