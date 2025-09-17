@@ -33,7 +33,7 @@ export default function About() {
                 {/* Picture */}
                 <div className="md:w-1/2 flex justify-center md:justify-end">
                     <img
-                        src="/Profilbild2.JPG"
+                        src={`${process.env.PUBLIC_URL}/profilbild2.jpg`} 
                         alt="Pharrell Kaim"
                         className="rounded-lg shadow-lg max-w-[200px] md:max-w-sm"
                     />
