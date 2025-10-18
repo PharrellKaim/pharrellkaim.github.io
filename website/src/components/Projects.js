@@ -31,8 +31,32 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-
-            {/* Project 2: CronJob Monitor */}
+           {/* Project 2: RustyClock*/}
+            <div className="mx-auto w-full mx-10">
+                <div className="flex flex-col md:flex-row mb-5 items-center md:items-start">
+                    <div className=" md:mr-6 mb-4 md:mb-0">
+                        <img
+                            src="/icon.png"
+                            alt="RustyClock"
+                            className="rounded-lg shadow-md w-80 h-56 max-w-full h-auto"
+                        />
+                    </div>
+                    <div className="md:w-1/2">
+                        <span className="text-primary text-lg md:text-2xl mr-5">
+                            RustyClock
+                        </span>
+                        <p className="font-thin text-justify text-sm md:text-base mt-3 mb-4">
+                            Rusty Clock is a simple and elegant time-tracking app. It lets you start, stop, and log your work sessions, with daily summaries and exportable JSON logs.
+                        </p>
+                        <div className="text-center md:text-left">
+                            <a href="https://github.com/PharrellKaim/rusty-clock" className="inline-block hover:bg-primary px-5 py-2 rounded-xl bg-darkgrey text-white">
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            {/* Project 3: CronJob Monitor */}
             <div className="mx-auto w-full mx-10">
                 <div className="flex flex-col md:flex-row mb-5 items-center md:items-start">
                     <div className=" md:mr-6 mb-4 md:mb-0">
@@ -57,31 +81,29 @@ export default function Projects() {
                     </div>
                 </div>
             </div> 
-
-                {/* Project 3: TypeScript Todo */}
-                <div className="flex flex-col md:flex-row mb-5 items-center md:items-start">
-                    <div className=" md:mr-6 mb-4 md:mb-0">
-                        <img
-                            src="/todoApp.png"
-                            alt="TypeScript Todo"
-                            className="rounded-lg shadow-md w-80 h-56 object-cover"
-                        />
-                    </div>
-                    <div className="md:w-1/2">
-                        <span className="text-primary text-lg md:text-2xl mr-5">
-                            TypeScript Todo
-                        </span>
-                        <p className="font-thin text-justify text-sm md:text-base mt-3 mb-4">
-                            I developed a ToDo app using TypeScript as a personal project to deepen my understanding of the TypeScript programming language. This project served as a practical exercise to enhance my skills in TypeScript, allowing me to explore its features and benefits in a real-world application. The ToDo app includes essential functionalities such as adding, removing, and marking tasks as complete, all while leveraging TypeScript's strong typing and object-oriented features to build a robust and scalable solution.
-                        </p>
-                        <div className="text-center md:text-left">
-                            <a href="https://github.com/PharrellKaim/TypeScriptTodo" className="inline-block px-5 py-2 rounded-xl bg-darkgrey text-white hover:bg-primary">
-                                Learn More
-                            </a>
-                        </div>
+            {/* Project 3: TypeScript Todo */}
+            <div className="flex flex-col md:flex-row mb-5 items-center md:items-start">
+                <div className=" md:mr-6 mb-4 md:mb-0">
+                    <img
+                        src="/todoApp.png"
+                        alt="TypeScript Todo"
+                        className="rounded-lg shadow-md w-80 h-56 object-cover"
+                    />
+                </div>
+                <div className="md:w-1/2">
+                    <span className="text-primary text-lg md:text-2xl mr-5">
+                        TypeScript Todo
+                    </span>
+                    <p className="font-thin text-justify text-sm md:text-base mt-3 mb-4">
+                        I developed a ToDo app using TypeScript as a personal project to deepen my understanding of the TypeScript programming language. This project served as a practical exercise to enhance my skills in TypeScript, allowing me to explore its features and benefits in a real-world application. The ToDo app includes essential functionalities such as adding, removing, and marking tasks as complete, all while leveraging TypeScript's strong typing and object-oriented features to build a robust and scalable solution.
+                    </p>
+                    <div className="text-center md:text-left">
+                        <a href="https://github.com/PharrellKaim/TypeScriptTodo" className="inline-block px-5 py-2 rounded-xl bg-darkgrey text-white hover:bg-primary">
+                            Learn More
+                        </a>
                     </div>
                 </div>
-
+            </div>
             </div>
         </div>
     );
