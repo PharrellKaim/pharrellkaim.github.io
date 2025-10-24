@@ -19,7 +19,7 @@ jobs:
           submodules: true
       
       - name: Setup pages
-        uses: actions/configure-pages@4
+        uses: actions/configure-pages@3
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -37,4 +37,4 @@ jobs:
     steps:
       - name: Deploy pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v3
