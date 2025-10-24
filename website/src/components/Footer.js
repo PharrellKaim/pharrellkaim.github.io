@@ -3,8 +3,8 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'; // react-icons für Linke
 
 export default function Footer() {
     return (
-        <footer className="bg-background py-4">
-            <div className="flex justify-center items-center space-x-6">
+        <footer className="bg-background flex flex-col items-center ">
+            <div className="flex  space-x-6">
                 <a
                     href="https://www.linkedin.com/in/pharrell-kaim-091a6a22a"
                     target="_blank"
@@ -21,6 +21,9 @@ export default function Footer() {
                 >
                     <FaGithub className="w-8 h-8" />
                 </a>
+            </div>
+            <div >
+                <a href="Impressum" className="text-darkgrey hover:text-primary font-thin">Impressum</a>
             </div>
         </footer>
     );
