@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pharrellkaim.github.io/",
+  "homepage": "https://pharrellkaim.github.io",
   "dependencies": {
     "@heroicons/react": "^2.1.5",
     "@testing-library/jest-dom": "^5.17.0",

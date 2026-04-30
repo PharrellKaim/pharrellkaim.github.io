@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; // react-icons für LinkedIn und GitHub
 
 export default function Footer() {
@@ -23,7 +24,9 @@ export default function Footer() {
                 </a>
             </div>
             <div >
-                <a href="Impressum" className="text-darkgrey hover:text-primary font-thin">Impressum</a>
+                <HashLink smooth to="/Impressum" className="text-darkgrey hover:text-primary font-thin">
+                    Impressum
+                </HashLink>
             </div>
         </footer>
     );

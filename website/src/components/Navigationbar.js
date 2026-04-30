@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'; // Heroicons v2
 import { FaLinkedin, FaGithub } from 'react-icons/fa'; // react-icons for LinkedIn and GitHub
 import { HashLink } from "react-router-hash-link";
+import { Link } from 'react-router-dom';
 
 export default function Navigationbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -66,7 +67,9 @@ export default function Navigationbar() {
                         </HashLink>
                     </li>
                     <li>
-                        <a href="/Impressum" onClick={() => setIsOpen(false)}>Impressum</a>
+                        <HashLink smooth to="/Impressum" onClick={() => setIsOpen(false)}>
+                            Impressun
+                        </HashLink>
                     </li>
                 </ul>
             </div>
