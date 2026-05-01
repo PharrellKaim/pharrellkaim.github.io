@@ -1,10 +1,14 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { useParams } from "react-router-dom";
+
 import Navigationbar from "./components/Navigationbar";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Impressum from "./components/Impressum";
+import Blog from "./components/Blog";
+import BlogPost from "./components/BlogPost"
 
 function App() {
   return (
@@ -27,6 +31,12 @@ function App() {
               </>
             }
           />
+
+          {/* Blog Übersicht */}
+          <Route path="/blog" element={<Blog />} />
+
+          {/* Einzelner Blogpost */}
+          <Route path="/blog/:id" element={<BlogPost />} />
 
           {/* Impressum-Seite */}
           <Route path="/impressum" element={<Impressum />} />
