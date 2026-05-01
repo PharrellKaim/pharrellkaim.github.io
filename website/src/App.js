@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Impressum from "./components/Impressum";
 import Blog from "./components/Blog";
 import BlogPost from "./components/BlogPost"
+import BlogPreview from "./components/BlogPreview";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <>
                 <About />
                 <Experience />
+                <BlogPreview />
                 <Projects />
                 <Footer />
               </>
