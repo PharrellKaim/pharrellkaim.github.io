@@ -153,3 +153,12 @@ This project helped me understand how critical proper identity management is in 
 Security, in my view, is not just an implementation detail — it is a fundamental architectural decision.
 
 ---
+
+## 📖 References
+
+If you’d like to verify or explore the information covered in this article further, you can find the original sources and references below.
+
+- [Keycloak Best Practice](https://documentation.cloud-iam.com/resources/keycloak-best-practices-guide.html)
+- [HA Multi Cluster Concept](https://www.keycloak.org/high-availability/multi-cluster/concepts)
+- [Keycloak K8s Architecture](https://www.keycloak.org/keycloak-benchmark/kubernetes-guide/latest/architecture)
+---
