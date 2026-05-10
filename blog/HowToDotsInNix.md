@@ -213,9 +213,9 @@ You can expand this endlessly — shell configs, aliases, tools, everything.
 ---
 
 ### 6. Apply
-Run:
+In the correct directory, run:
 ```bash
-home-manager switch --flake ~/.config/home-manager
+home-manager switch --flake .
 ```
 
 This command builds your entire environment and applies it.
